@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FD410B1BB97956007CE0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD410A1BB97956007CE0F3 /* AppDelegate.swift */; };
+		84FD410D1BB97956007CE0F3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD410C1BB97956007CE0F3 /* MasterViewController.swift */; };
+		84FD410F1BB97956007CE0F3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD410E1BB97956007CE0F3 /* DetailViewController.swift */; };
+		84FD41121BB97956007CE0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD41101BB97956007CE0F3 /* Main.storyboard */; };
+		84FD41141BB97956007CE0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FD41131BB97956007CE0F3 /* Assets.xcassets */; };
+		84FD41171BB97956007CE0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD41151BB97956007CE0F3 /* LaunchScreen.storyboard */; };
+		84FD41221BB97956007CE0F3 /* StormViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD41211BB97956007CE0F3 /* StormViewerTests.swift */; };
+		84FD412D1BB97956007CE0F3 /* StormViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD412C1BB97956007CE0F3 /* StormViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FD411E1BB97956007CE0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FD40FF1BB97956007CE0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FD41061BB97956007CE0F3;
+			remoteInfo = StormViewer;
+		};
+		84FD41291BB97956007CE0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FD40FF1BB97956007CE0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FD41061BB97956007CE0F3;
+			remoteInfo = StormViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FD41071BB97956007CE0F3 /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD410A1BB97956007CE0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84FD410C1BB97956007CE0F3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		84FD410E1BB97956007CE0F3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84FD41111BB97956007CE0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FD41131BB97956007CE0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FD41161BB97956007CE0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FD41181BB97956007CE0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD411D1BB97956007CE0F3 /* StormViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD41211BB97956007CE0F3 /* StormViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerTests.swift; sourceTree = "<group>"; };
+		84FD41231BB97956007CE0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD41281BB97956007CE0F3 /* StormViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD412C1BB97956007CE0F3 /* StormViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerUITests.swift; sourceTree = "<group>"; };
+		84FD412E1BB97956007CE0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FD41041BB97956007CE0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FD411A1BB97956007CE0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FD41251BB97956007CE0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FD40FE1BB97956007CE0F3 = {
+			isa = PBXGroup;
+			children = (
+				84FD41091BB97956007CE0F3 /* StormViewer */,
+				84FD41201BB97956007CE0F3 /* StormViewerTests */,
+				84FD412B1BB97956007CE0F3 /* StormViewerUITests */,
+				84FD41081BB97956007CE0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FD41081BB97956007CE0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FD41071BB97956007CE0F3 /* StormViewer.app */,
+				84FD411D1BB97956007CE0F3 /* StormViewerTests.xctest */,
+				84FD41281BB97956007CE0F3 /* StormViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FD41091BB97956007CE0F3 /* StormViewer */ = {
+			isa = PBXGroup;
+			children = (
+				84FD410A1BB97956007CE0F3 /* AppDelegate.swift */,
+				84FD410C1BB97956007CE0F3 /* MasterViewController.swift */,
+				84FD410E1BB97956007CE0F3 /* DetailViewController.swift */,
+				84FD41101BB97956007CE0F3 /* Main.storyboard */,
+				84FD41131BB97956007CE0F3 /* Assets.xcassets */,
+				84FD41151BB97956007CE0F3 /* LaunchScreen.storyboard */,
+				84FD41181BB97956007CE0F3 /* Info.plist */,
+			);
+			path = StormViewer;
+			sourceTree = "<group>";
+		};
+		84FD41201BB97956007CE0F3 /* StormViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FD41211BB97956007CE0F3 /* StormViewerTests.swift */,
+				84FD41231BB97956007CE0F3 /* Info.plist */,
+			);
+			path = StormViewerTests;
+			sourceTree = "<group>";
+		};
+		84FD412B1BB97956007CE0F3 /* StormViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FD412C1BB97956007CE0F3 /* StormViewerUITests.swift */,
+				84FD412E1BB97956007CE0F3 /* Info.plist */,
+			);
+			path = StormViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FD41061BB97956007CE0F3 /* StormViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FD41311BB97956007CE0F3 /* Build configuration list for PBXNativeTarget "StormViewer" */;
+			buildPhases = (
+				84FD41031BB97956007CE0F3 /* Sources */,
+				84FD41041BB97956007CE0F3 /* Frameworks */,
+				84FD41051BB97956007CE0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StormViewer;
+			productName = StormViewer;
+			productReference = 84FD41071BB97956007CE0F3 /* StormViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FD411C1BB97956007CE0F3 /* StormViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FD41341BB97956007CE0F3 /* Build configuration list for PBXNativeTarget "StormViewerTests" */;
+			buildPhases = (
+				84FD41191BB97956007CE0F3 /* Sources */,
+				84FD411A1BB97956007CE0F3 /* Frameworks */,
+				84FD411B1BB97956007CE0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FD411F1BB97956007CE0F3 /* PBXTargetDependency */,
+			);
+			name = StormViewerTests;
+			productName = StormViewerTests;
+			productReference = 84FD411D1BB97956007CE0F3 /* StormViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84FD41271BB97956007CE0F3 /* StormViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FD41371BB97956007CE0F3 /* Build configuration list for PBXNativeTarget "StormViewerUITests" */;
+			buildPhases = (
+				84FD41241BB97956007CE0F3 /* Sources */,
+				84FD41251BB97956007CE0F3 /* Frameworks */,
+				84FD41261BB97956007CE0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FD412A1BB97956007CE0F3 /* PBXTargetDependency */,
+			);
+			name = StormViewerUITests;
+			productName = StormViewerUITests;
+			productReference = 84FD41281BB97956007CE0F3 /* StormViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FD40FF1BB97956007CE0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BendyStraw;
+				TargetAttributes = {
+					84FD41061BB97956007CE0F3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					84FD411C1BB97956007CE0F3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 84FD41061BB97956007CE0F3;
+					};
+					84FD41271BB97956007CE0F3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 84FD41061BB97956007CE0F3;
+					};
+				};
+			};
+			buildConfigurationList = 84FD41021BB97956007CE0F3 /* Build configuration list for PBXProject "StormViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FD40FE1BB97956007CE0F3;
+			productRefGroup = 84FD41081BB97956007CE0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FD41061BB97956007CE0F3 /* StormViewer */,
+				84FD411C1BB97956007CE0F3 /* StormViewerTests */,
+				84FD41271BB97956007CE0F3 /* StormViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FD41051BB97956007CE0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FD41171BB97956007CE0F3 /* LaunchScreen.storyboard in Resources */,
+				84FD41141BB97956007CE0F3 /* Assets.xcassets in Resources */,
+				84FD41121BB97956007CE0F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FD411B1BB97956007CE0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FD41261BB97956007CE0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FD41031BB97956007CE0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FD410F1BB97956007CE0F3 /* DetailViewController.swift in Sources */,
+				84FD410D1BB97956007CE0F3 /* MasterViewController.swift in Sources */,
+				84FD410B1BB97956007CE0F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FD41191BB97956007CE0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FD41221BB97956007CE0F3 /* StormViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FD41241BB97956007CE0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FD412D1BB97956007CE0F3 /* StormViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FD411F1BB97956007CE0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FD41061BB97956007CE0F3 /* StormViewer */;
+			targetProxy = 84FD411E1BB97956007CE0F3 /* PBXContainerItemProxy */;
+		};
+		84FD412A1BB97956007CE0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FD41061BB97956007CE0F3 /* StormViewer */;
+			targetProxy = 84FD41291BB97956007CE0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FD41101BB97956007CE0F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FD41111BB97956007CE0F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FD41151BB97956007CE0F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FD41161BB97956007CE0F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FD412F1BB97956007CE0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FD41301BB97956007CE0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FD41321BB97956007CE0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StormViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.StormViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84FD41331BB97956007CE0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StormViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.StormViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84FD41351BB97956007CE0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StormViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.StormViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormViewer.app/StormViewer";
+			};
+			name = Debug;
+		};
+		84FD41361BB97956007CE0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StormViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.StormViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormViewer.app/StormViewer";
+			};
+			name = Release;
+		};
+		84FD41381BB97956007CE0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StormViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.StormViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StormViewer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84FD41391BB97956007CE0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StormViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.StormViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StormViewer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FD41021BB97956007CE0F3 /* Build configuration list for PBXProject "StormViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD412F1BB97956007CE0F3 /* Debug */,
+				84FD41301BB97956007CE0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FD41311BB97956007CE0F3 /* Build configuration list for PBXNativeTarget "StormViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD41321BB97956007CE0F3 /* Debug */,
+				84FD41331BB97956007CE0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84FD41341BB97956007CE0F3 /* Build configuration list for PBXNativeTarget "StormViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD41351BB97956007CE0F3 /* Debug */,
+				84FD41361BB97956007CE0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84FD41371BB97956007CE0F3 /* Build configuration list for PBXNativeTarget "StormViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD41381BB97956007CE0F3 /* Debug */,
+				84FD41391BB97956007CE0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FD40FF1BB97956007CE0F3 /* Project object */;
+}
